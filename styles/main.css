@@ -1,0 +1,38 @@
+html {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html {
+  padding: 0px;
+}
+
+header {
+  height: 60px;
+}
+
+nav ul {
+  padding: 10px;
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  float: right;
+}
+
+header h2 {
+  float: left;
+  margin-left: 8%;
+}
+
+main {
+  clear: both;
+}
