@@ -21,7 +21,7 @@ nav ul {
   font-weight: bold;
 }
 
-nav li {
+header li {
   list-style-type: none;
   display: inline;
   padding: 10px;
@@ -125,6 +125,22 @@ h1 {
   text-align: center;
 }
 
-footer {
-  clear: both;
+h4 {
+  display: inline;
+}
+
+#disclaimer {
+  display: inline;
+}
+
+footer section {
+  width: 400px;
+  text-align: justify;
+  font-size: 0.75em;
+  margin: 20px 10%;
+  float: left;
+}
+
+footer nav {
+  float: left;
 }
