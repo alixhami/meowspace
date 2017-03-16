@@ -39,10 +39,50 @@ main {
 
 #main-banner {
   text-align: center;
+  font-size: 1.5em;
   height: 230px;
   background-color: gray;
 }
 
 h1 {
-  padding: 100px;
+  padding: 85px;
+}
+
+#popular-posts-title {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2.25em;
+  margin-left: -10%;
+}
+
+#popular-posts-section {
+  margin-left: 10%;
+}
+
+.post-title {
+  text-align: center;
+  margin: 0px;
+}
+
+.post {
+  width: 200px;
+  float: left;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 15px;
+  padding: 20px;
+}
+
+.learn-more-button {
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 10px;
+  width: 100px;
+  border-radius: 20%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#join-the-club {
+  clear: both;
 }
