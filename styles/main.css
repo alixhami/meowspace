@@ -84,5 +84,47 @@ h1 {
 }
 
 #join-the-club {
+  border-top: 1px solid black;
+  clear: both;
+}
+
+#join-the-club h2 {
+  font-size: 2.9em;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#join-the-club p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+#join-the-club h2, #join-the-club p {
+  width: 300px;
+  margin-left: 12%;
+  float: left;
+  clear: left;
+}
+
+#join-the-club img {
+  width: 350px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+#join-the-club + section {
+  background-color: gray;
+  height: 300px;
+  font-size: 3em;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+#join-the-club + section h2 {
+  padding-top: 60px;
+  text-align: center;
+}
+
+footer {
   clear: both;
 }
