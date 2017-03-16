@@ -36,3 +36,13 @@ header h2 {
 main {
   clear: both;
 }
+
+#main-banner {
+  text-align: center;
+  height: 230px;
+  background-color: gray;
+}
+
+h1 {
+  padding: 100px;
+}
