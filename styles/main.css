@@ -169,10 +169,10 @@ footer section {
   width: 400px;
   text-align: justify;
   font-size: 0.75em;
-  margin: 20px 10%;
   float: left;
+  margin: 20px 0 20px 10%;
 }
 
 footer nav {
-  float: left;
+  float: right;
 }
