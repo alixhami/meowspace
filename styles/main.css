@@ -5,6 +5,15 @@ html {
 a {
   text-decoration: none;
   color: black;
+  padding: 20px 50px;
+}
+
+a:hover {
+  color: white;
+  background-image: url("../assets/real_sockeye.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -18,10 +27,10 @@ nav ul {
   margin-right: 5%;
   margin-top: 0px;
   font-weight: bold;
+  list-style-type: none;
 }
 
-header li {
-  list-style-type: none;
+li {
   display: inline;
   padding: 10px;
   float: right;
@@ -64,30 +73,42 @@ h1 {
 
 #popular-posts-section {
   margin-left: 10%;
+  max-width: 1000px;
 }
 
 .post-title {
   text-align: center;
   margin: 0px;
+  height: 50px;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
 }
 
 .post {
-  width: 200px;
+  width: 220px;
   float: left;
   border: 1px solid black;
   border-radius: 5%;
   margin: 15px;
+  text-align: justify;
+}
+
+.post p:first-of-type {
+  height: 90px;
+  overflow: hidden;
   padding: 20px;
+  margin-bottom: 0px;
 }
 
 .learn-more-button {
   font-weight: bold;
-  border: 1px solid black;
-  padding: 10px;
-  width: 100px;
-  border-radius: 20%;
   text-align: center;
-  margin: 0 auto;
+  margin: 0px auto 20px;
+}
+
+.post p:nth-of-type(2) {
+  text-align: center;
+  margin-top: 0px;
 }
 
 #join-the-club {
